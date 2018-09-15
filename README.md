@@ -45,12 +45,12 @@ module github.com/objcoding/wxpay
 
 ```cgo
 // 新建微信支付客户端
-client := wxpay.NewClient(wxpay.NewAccount{
+client := wxpay.NewClient(wxpay.NewAccount(
 	AppID: "appid",
 	MchID: "mchid",
 	ApiKey: "apiKey",
 	isSanbox: false
-})
+))
 
 // 统一下单
 params := make(wxpay.Params)
