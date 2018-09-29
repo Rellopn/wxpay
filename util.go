@@ -59,10 +59,7 @@ func MapToXml(params Params) string {
 
 // 生成随机字符串
 func nonceStr() string {
-	uid, err := uuid.NewV4()
-	if err != nil {
-		return errors.New("生成随机字符串").Error()
-	}
+	uid := uuid.NewV4()
 	return strings.Replace(uid.String(), "-", "", -1)
 }
 
