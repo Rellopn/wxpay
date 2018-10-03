@@ -1,4 +1,4 @@
-module github.com/objcoding/wxpay
+module github.com/Rellopn/wxpay
 
 require (
 	github.com/kr/pretty v0.1.0 // indirect
