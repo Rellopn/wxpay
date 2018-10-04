@@ -5,7 +5,6 @@ import (
 	"crypto/tls"
 	"encoding/pem"
 	"encoding/xml"
-	"errors"
 	"github.com/satori/go.uuid"
 	"golang.org/x/crypto/pkcs12"
 	"log"
